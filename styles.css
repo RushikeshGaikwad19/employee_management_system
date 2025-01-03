@@ -1,0 +1,282 @@
+/* Basic styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2, h3, h4 {
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #00ff9d;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #941111;
+}
+
+/* Project Info Section */
+#project-info h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#project-info p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Features Section */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Screenshots Section */
+#screenshots img {
+    /* Screenshots Section */
+#screenshots img {
+    width: 100%; /* Ensures the images are responsive and fit within their container */
+    max-width: 400px; /* Maximum width of the image */
+    height: 250px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border: 4px solid #ddd; /* Optional: Adds border to images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer p {
+    font-size: 1rem;
+}
+/* Reset some default styles for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2f2f2f;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #3a3a3a; /* Dark Slate Blue */
+}
+
+nav .navbar-brand {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+nav .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #8A2BE2; /* RebeccaPurple */
+}
+
+/* Section styling */
+section {
+    padding: 60px 0;
+}
+
+/* Project Info Section */
+#project-info {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#project-info h2 {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#project-info p {
+    font-size: 1.2rem;
+    color: #dcdcdc; /* Light Grey */
+}
+
+/* Features Section */
+#features {
+    background-color: #3a3a3a; /* Dark Slate Blue */
+}
+
+#features h3 {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #1c1c1c; /* Darker Shade */
+    border: none;
+    color: #dcdcdc;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    color: #8A2BE2; /* RebeccaPurple */
+    font-weight: 600;
+}
+
+.card-text {
+    color: #dcdcdc;
+    font-size: 1rem;
+}
+
+/* Screenshots Section */
+#screenshots {
+    background-color: #333333;
+}
+
+#screenshots h3 {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#screenshots img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+#screenshots img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+#contact h4 {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #dcdcdc; /* Light Grey */
+}
+
+/* Contact Form Styling */
+.contact-form {
+    background-color: #444444;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #8A2BE2; /* RebeccaPurple */
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #7B68EE; /* Medium Slate Blue */
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #8A2BE2; /* RebeccaPurple */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #7B68EE; /* Medium Slate Blue */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333333;
+    color: #dcdcdc;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    color: #8A2BE2; /* RebeccaPurple */
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    #project-info h2 {
+        font-size: 2rem;
+    }
+}

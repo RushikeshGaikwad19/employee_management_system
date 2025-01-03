@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Folder Structure</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #2C3E50;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1A1A1D;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #9B59B6;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        .folder-structure {
+            background-color: #34495E;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .folder-structure h2 {
+            color: #16A085;
+            margin-bottom: 15px;
+        }
+
+        .structure {
+            color: #ECF0F1;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .folder {
+            padding-left: 20px;
+        }
+
+        .folder-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .folder-list li {
+            margin-bottom: 5px;
+        }
+
+        .folder-list li:before {
+            content: "📁";
+            margin-right: 10px;
+        }
+
+        .form-container {
+            background-color: #8E44AD;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin-top: 40px;
+        }
+
+        .form-container h2 {
+            color: white;
+        }
+
+        .form-container input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #2980B9;
+            border-radius: 5px;
+            background-color: #F4F6F6;
+            color: #34495E;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #2980B9;
+            border: none;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #3498DB;
+        }
+
+        footer {
+            background-color: #2C3E50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        footer a {
+            color: #9B59B6;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Management System</h1>
+      
+    </header>
+
+    <div class="container">
+        <section class="folder-structure">
+            <h2>Project Folder Structure</h2>
+            <div class="structure">
+                <ul class="folder-list">
+                    <li>
+                        <span>EmployeeManagementSystem/</span>
+                        <ul class="folder">
+                            <li>src/</li>
+                            <ul class="folder">
+                                <li>config/</li>
+                                <ul class="folder">
+                                    <li>DatabaseConnection.java</li>
+                                </ul>
+                                <li>dao/</li>
+                                <ul class="folder">
+                                    <li>EmployeeDAO.java</li>
+                                    <li>EmployeeDAOImpl.java</li>
+                                </ul>
+                                <li>model/</li>
+                                <ul class="folder">
+                                    <li>Employee.java</li>
+                                </ul>
+                                <li>service/</li>
+                                <ul class="folder">
+                                    <li>EmployeeService.java</li>
+                                </ul>
+                                <li>ui/</li>
+                                <ul class="folder">
+                                    <li>MainApp.java</li>
+                                </ul>
+                                <li>util/</li>
+                                <ul class="folder">
+                                    <li>InputHelper.java</li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>lib/</li>
+                    <ul class="folder">
+                        <li>mysql-connector-java-x.x.xx.jar</li>
+                    </ul>
+                    <li>README.md</li>
+                </ul>
+            </div>
+        </section>
+
+       
+    </div>
+
+   
+
+</body>
+
+</html>
